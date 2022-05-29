@@ -1,7 +1,50 @@
+/*reset*/
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+/*Variable de color*/
 :root {
     --colorPrincipal: #775548;
     --colorSecundario: #EF6D24;
     --colorLaNacion: #3AABC4;
     --colorPagina12: #EF4B51;
     --colorResaltado: #815D48;
+    --colorNosotros: #D8B03B;
+}
+body {
+    background-color: #EDECE9;
+    font-family: Verdana, Arial, sans-serif;
+    margin: 5px;
+}
+.header a {
+    font-size: 20px;
+    color: var(--colorSecundario);
+    font-weight: bold;
+}
+img {
+    width: 100%;
+}
+main {
+    color: var(--colorPrincipal);
+}
+h2 {
+    background-color: var(--colorPrincipal);
+    color:#EDECE9 ;
+}
+.destacado {
+    color: var(--colorResaltado);
+    font-weight: bold;
+}
+main a{
+    color: #EF6D24;
+    font-weight: bold;
+}
+#lanacion{
+    color: var(--colorLaNacion);
+}
+#pagina12{
+    color: var(--colorPagina12);
 }
