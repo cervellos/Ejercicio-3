@@ -12,5 +12,4 @@ console.log("Bienvenido. Buenos dias " + nombre);
 alert("Bienvenido. Buenos dias " + nombre)
 }else{
     console.log("esa no es una edad humana. de todas formas, Bienvenido" + nombre)
-    alert("esa no es una edad humana. de todas formas, Bienvenido" + nombre)
-}
+    alert("esa no es una edad humana. de todas formas, Bienvenido" + nombre)}
